@@ -1,0 +1,68 @@
+#TitlePic{
+  background-color: rgba(255, 254, 173, 0.932);
+  // background-color: rgb(88, 170, 241);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .colck-box {
+    height: 200px;
+    width: 200px;
+    // background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+  }
+
+  .click {
+    width: 80%;
+    height: 80%;
+    background-color: rgb(40, 205, 255);
+    border-radius: 50%;
+    border: 10px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .colck-box::after {
+    content: '';
+    background-color: rgb(0, 0, 0);
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .click>div {
+    position: absolute;
+    border-radius: 35%;
+  }
+  
+  #second {
+    width: 3%;
+    height: 95%;
+    background: linear-gradient(rgb(141, 141, 141) 60%, rgba(0, 0, 0, 0) 40%);
+    transform: rotate(0deg);
+  }
+  
+  #minutes {
+    width: 4%;
+    height: 80%;
+    background: linear-gradient(blue 60%, rgba(0, 0, 0, 0) 40%);
+    transform: rotate(0deg);
+  }
+  
+  #hour {
+    width: 5%;
+    height: 60%;
+    background: linear-gradient(red 60%, rgba(0, 0, 0, 0) 40%);
+    transform: rotate(0deg);
+  }
+  .git{
+    background-color: blueviolet;
+  }
+
+}
