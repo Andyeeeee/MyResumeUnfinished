@@ -31,13 +31,13 @@
             <component :is="Component"></component>
           </keep-alive>
         </router-view>
+        <MainFooter></MainFooter>
       </v-main>
     </v-app>
   </div>
 </template>
 <script setup>
 import MainFooter from '@/components/MainFooter.vue'
-import TitlePicVue from '@/components/TitlePic.vue'
 import { computed, ref } from 'vue'
 import { useDisplay } from 'vuetify'
 
