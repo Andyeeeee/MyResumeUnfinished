@@ -1,28 +1,20 @@
 // Composables
-import { createRouter, createWebHashHistory, START_LOCATION } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
   {
     path: '/',
-    component: () => import('@/layouts/Font.vue'),
-    children: [
-      {
-        path: '/',
-        name: 'Home',
-        component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),
-        meta: {
-          title: '首頁'
-        }
-      },
-      {
-        path: '/aboutme',
-        name: 'AboutMe',
-        component: () => import(/* webpackChunkName:"aboutme" */ '@/views/AboutMe.vue'),
-        meta: {
-          title: '關於我'
-        }
-      }
-    ]
+    component: () => import(/* webpackChunkName: "home"*/'@/view/Home.vue'),
+    meta: {
+      title: '首頁'
+    }
+  },
+  {
+    path: '/aboutme',
+    component: () => import(/* webpackChunkName: "aboutme"*/'@/view/AboutMe.vue'),
+    meta: {
+      title: '關於我'
+    }
   }
 ]
 
