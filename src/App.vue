@@ -26,6 +26,7 @@
         </template>
       </v-app-bar>
       <v-main>
+        <TitlePicVue></TitlePicVue>
         <router-view v-slot="{ Component }">
           <keep-alive include="Home">
             <component :is="Component"></component>
@@ -37,6 +38,7 @@
   </div>
 </template>
 <script setup>
+import TitlePicVue from '@/components/TitlePic.vue'
 import MainFooter from '@/components/MainFooter.vue'
 import { computed, ref } from 'vue'
 import { useDisplay } from 'vuetify'
