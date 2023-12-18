@@ -15,6 +15,13 @@ const routes = [
     meta: {
       title: '關於我'
     }
+  },
+  {
+    path: '/myproduct',
+    component: () => import(/* webpackChunkName: "myproduct"*/'@/views/MyProduct.vue'),
+    meta: {
+      title: '我的作品'
+    }
   }
 ]
 
