@@ -31,7 +31,7 @@ const router = createRouter({
   routes,
 })
 
-routr.afterEach((to, from) => {
+router.afterEach((to, from) => {
   document.title = to.meta.title
 })
 
