@@ -4,14 +4,14 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    component: () => import(/* webpackChunkName: "home"*/'@/view/Home.vue'),
+    component: () => import(/* webpackChunkName: "home"*/'@/views/Home.vue'),
     meta: {
       title: '首頁'
     }
   },
   {
     path: '/aboutme',
-    component: () => import(/* webpackChunkName: "aboutme"*/'@/view/AboutMe.vue'),
+    component: () => import(/* webpackChunkName: "aboutme"*/'@/views/AboutMe.vue'),
     meta: {
       title: '關於我'
     }
