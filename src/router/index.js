@@ -14,14 +14,14 @@ const routes = [
           title: '首頁'
         }
       },
-      {
-        path: '/aboutme',
-        name: 'AboutMe',
-        component: () => import(/* webpackChunkName:"aboutme" */ '@/views/AboutMe.vue'),
-        meta: {
-          title: '關於我'
-        }
-      },
+      // {
+      //   path: '/aboutme',
+      //   name: 'AboutMe',
+      //   component: () => import(/* webpackChunkName:"aboutme" */ '@/views/AboutMe.vue'),
+      //   meta: {
+      //     title: '關於我'
+      //   }
+      // },
       {
         path: 'myproduct',
         name: 'MyProduct',
