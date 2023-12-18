@@ -1,7 +1,7 @@
 <template>
-  <HelloWorld />
+  <MainContentVue></MainContentVue>
 </template>
 
 <script setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+import MainContentVue from '@/components/MainContent.vue'
 </script>
