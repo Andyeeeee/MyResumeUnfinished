@@ -13,6 +13,14 @@ const routes = [
         meta: {
           title: '首頁'
         }
+      },
+      {
+        path: '/aboutme',
+        name: 'AboutMe',
+        component: () => import(/* webpackChunkName:"aboutme" */ '@/views/AboutMe.vue'),
+        meta: {
+          title: '關於我'
+        }
       }
     ]
   }
