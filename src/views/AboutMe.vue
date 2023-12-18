@@ -9,7 +9,7 @@
 
             我是林駿丞，具2年工作經驗，在工作中曾使用POS系統，發現系統有許多需要優化的功能，由於自己沒有具備程式設計能力，無法解決當下問題，於是下定決心學習程式設計，提升自己的專業能力。 </div>
           <div class="gifbox">
-            <img src="@/assets/run.gif" class="gif" alt="">
+            <!-- <img src="@/assets/run.gif" class="gif" alt=""> -->
           </div>
         </v-col>
 
