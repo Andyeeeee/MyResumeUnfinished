@@ -25,7 +25,7 @@ const routes = [
   },
   {
     path: '/myskill',
-    component: () => import(/* webpackChunkName: "myproduct"*/'@/views/MySkill.vue'),
+    component: () => import(/* webpackChunkName: "myskill"*/'@/views/MySkill.vue'),
     meta: {
       title: '我的技能'
     }

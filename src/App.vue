@@ -16,11 +16,11 @@
         <v-spacer />
         <v-app-bar-nav-icon v-if="ismobile" @click="drawer = true" />
         <template v-if="!ismobile">
-          <v-btn>關於我</v-btn>
-          <v-btn>我的作品</v-btn>
-          <v-btn>我的能力</v-btn>
-          <v-btn>學習歷程</v-btn>
-          <v-btn>我的經歷</v-btn>
+          <v-btn to='/aboutme'>關於我</v-btn>
+          <v-btn to='/myproduct'>我的作品</v-btn>
+          <v-btn to='/myskill'>我的能力</v-btn>
+          <v-btn to='/aboutme'>學習歷程</v-btn>
+          <v-btn to='/aboutme'>我的經歷</v-btn>
         </template>
       </v-app-bar>
       <v-main>

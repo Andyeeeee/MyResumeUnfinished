@@ -20,11 +20,11 @@ import { computed } from 'vue';
 
 const items = computed(() => {
   return [
-    { href: 'https://andyeeeee.github.io/vuetify-project1/#/', image: 'src/assets/Product.png', title: '專題1', text: '專題1' },
-    { href: 'https://andyeeeee.github.io/tomato/#/', image: 'src/assets/TomatoClock.png', title: '專題1', text: '專題1' },
-    { href: 'https://andyeeeee.github.io/FIGHT-mosquito/', image: 'src/assets/Jq.png', title: '專題1', text: '專題1' },
-    { href: 'https://andyeeeee.github.io/RWD05/', image: 'src/assets/RWDrestran.png', title: '專題1', text: '專題1' },
-    { href: '', image: 'src/assets/LineBotApi.png', title: '專題1', text: '專題1' }
+    { href: 'https://andyeeeee.github.io/vuetify-project1/#/', image: '../assets/Product.png', title: '餐廳線上訂餐', text: '餐廳線上訂餐' },
+    { href: 'https://andyeeeee.github.io/tomato/#/', image: 'src/assets/TomatoClock.png', title: '番茄中', text: '番茄中' },
+    { href: 'https://andyeeeee.github.io/FIGHT-mosquito/', image: 'src/assets/Jq.png', title: 'JQ蚊子', text: 'JQ蚊子' },
+    { href: 'https://andyeeeee.github.io/RWD05/', image: 'src/assets/RWDrestran.png', title: '餐廳面板RWD', text: '餐廳面板RWD' },
+    { href: '', image: 'src/assets/LineBotApi.png', title: 'LineBotApi', text: 'LineBotApi' }
   ]
 })
 </script>
