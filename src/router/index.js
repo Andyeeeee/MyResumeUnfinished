@@ -29,6 +29,20 @@ const routes = [
     meta: {
       title: '我的技能'
     }
+  },
+  {
+    path: '/learningprocess',
+    component: () => import(/* webpackChunkName: "learningprocess"*/'@/views/LearningProcess.vue'),
+    meta: {
+      title: '學習歷程'
+    }
+  },
+  {
+    path: '/myexperience',
+    component: () => import(/* webpackChunkName: "myexperience"*/'@/views/MyExperience.vue'),
+    meta: {
+      title: '我的經歷'
+    }
   }
 ]
 
