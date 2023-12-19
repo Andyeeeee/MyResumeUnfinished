@@ -7,7 +7,8 @@
         <div>職訓前端結訓</div>
       </v-col>
       <v-col class="v-col-12 v-col-sm-4">
-        <v-icon icon="mdi-emoticon-outline" class="smile"></v-icon>
+        <!-- <v-icon icon="mdi-emoticon-outline" class="smile"></v-icon> -->
+        <img src="/src/assets/FooterMe.png" alt="" style="border-radius: 50%;width: 50%">
       </v-col>
       <v-col class="v-col-12 v-col-sm-4">
         <div><v-icon icon="mdi-email-edit-outline" />信箱:10514f074@gmail.com</div>
