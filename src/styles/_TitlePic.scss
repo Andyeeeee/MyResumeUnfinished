@@ -20,13 +20,78 @@
     height: 80%;
     background-color: rgb(40, 205, 255);
     border-radius: 50%;
-    border: 10px black solid;
+    outline: 10px black solid;
+    // outline-offset: -10px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    margin: auto;
+    line-height: 100%;
   }
 
+  // .one,
+  // .two,
+  // .teee,
+  // .four,
+  // .five,
+  // .six,
+  // .seven,
+  // .eight,
+  // .night,
+  // .ten,
+  // .eleven,
+  .twelve-six{
+    height: 100%;
+    .twelve,
+    .six{
+      height: 90%;
+    }
+  }
+  .one-seven{
+    height: 100%;
+    transform: rotate(30deg);
+    .one,
+    .seven{
+      height: 90%;
+    }
+  }
+  .two-eight
+  {
+    height: 100%;
+    transform: rotate(60deg);
+    .two,
+    .eight{
+      height: 90%;
+    }
+  }
+  .teee-night{
+    height: 100%;
+    transform: rotate(90deg);
+    .tree,
+    .night
+    {
+      height: 90%;
+    }
+  }
+  .four-ten{
+    height: 100%;
+    transform: rotate(120deg);
+    .four,
+    .ten{
+      height: 90%;
+    }
+  }
+  .five-eleven{
+    height: 100%;
+    transform: rotate(150deg);
+    .five,
+    .eleven{
+      height: 90%;
+    }
+  }
+  
+  
   .colck-box::after {
     content: '';
     background-color: rgb(0, 0, 0);

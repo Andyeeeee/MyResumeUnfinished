@@ -6,6 +6,30 @@
           <div id="hour"></div>
           <div id="minutes"></div>
           <div id="second"></div>
+          <div class="twelve-six">
+            <div class="twelve">12</div>
+            <div class="six">6</div>
+          </div>
+          <div class="one-seven">
+            <div class="one">1</div>
+            <div class="seven">7</div>
+          </div>
+          <div class="two-eight">
+            <div class="two">2</div>
+            <div class="eight">8</div>
+          </div>
+          <div class="teee-night">
+            <div class="tree">3</div>
+            <div class="night">9</div>
+          </div>
+          <div class="four-ten">
+            <div class="four">4</div>
+            <div class="ten">10</div>
+          </div>
+          <div class="five-eleven">
+            <div class="five">5</div>
+            <div class="eleven">11</div>
+          </div>
         </div>
       </div>
       <div id="time"></div>
@@ -27,7 +51,7 @@ export default {
       const minutes = document.getElementById('minutes')
       const second = document.getElementById('second')
 
-      hour.style.transform = `rotate(${date.getHours() * 30 + 0}deg)`
+      hour.style.transform = `rotate(${(date.getHours() * 30) + (date.getMinutes() * 0.5)}deg)`
       minutes.style.transform = `rotate(${date.getMinutes() * 6 + 0}deg)`
       second.style.transform = `rotate(${date.getSeconds() * 6 + 0}deg)`
 
@@ -54,3 +78,10 @@ export default {
   }
 }
 </script>
+
+
+<!-- 1小時20度
+    半小時 10度
+    15分鐘5度
+    3分鐘1度
+-->

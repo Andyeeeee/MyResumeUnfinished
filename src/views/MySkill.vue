@@ -70,9 +70,7 @@
             <img src="@/assets/MongoDB.png" alt="">
             <div>MongoDB</div>
           </div>
-          <div>123</div>
-          <div>123</div>
-          <div>123</div>
+
         </v-col>
         <v-col class="v-col-12 v-col-md-4">
           <h1>略懂</h1>
