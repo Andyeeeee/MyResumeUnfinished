@@ -45,14 +45,13 @@
     height: 100%;
     .twelve,
     .six{
-      height: 90%;
+      height: 50%;
     }
   }
   .one-seven{
     height: 100%;
     transform: rotate(30deg);
-    .one,
-    .seven{
+    .one{
       height: 90%;
     }
   }
@@ -62,7 +61,7 @@
     transform: rotate(60deg);
     .two,
     .eight{
-      height: 90%;
+      height: 50%;
     }
   }
   .teee-night{
@@ -71,7 +70,7 @@
     .tree,
     .night
     {
-      height: 90%;
+      height: 50%;
     }
   }
   .four-ten{
@@ -79,7 +78,7 @@
     transform: rotate(120deg);
     .four,
     .ten{
-      height: 90%;
+      height: 50%;
     }
   }
   .five-eleven{
@@ -87,10 +86,13 @@
     transform: rotate(150deg);
     .five,
     .eleven{
-      height: 90%;
+      height: 50%;
     }
   }
   
+  .clock-number-change-way{
+ transform: rotateZ(180deg)
+  }
   
   .colck-box::after {
     content: '';
