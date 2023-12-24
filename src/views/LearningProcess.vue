@@ -5,46 +5,15 @@
       <h1>學習歷程</h1>
       <h1>這業主要選寫什麼時間學會了什麼，什麼時間做了什麼成品</h1>
 
-      <div class="LP-box-outside">
+      <div class="d-flex flex-column flex-wrap">
 
 
         <div>
 
-          <div class="LP-box-inside">
-            <div class="one-on-one">
-              <img src="../assets/Tree.png" alt="">
-            </div>
-            <div>
-              <div></div>
-              <div>2圖片</div>
-              <div>第1份工作</div>
-            </div>
-          </div>
-
-          <div class=" LP-box-inside">
-            <div class="one-on-one">
-              <img src="../assets/Tree.png" alt="">
-            </div>
-            <div>
-              <div></div>
-              <div>2圖片</div>
-              <div>第3份工作</div>
-            </div>
-          </div>
-
-          <div class="LP-box-inside">
-            <div class="one-on-one">
-              <img src="../assets/Tree.png" alt="">
-            </div>
-            <div>
-              <div></div>
-              <div>2圖片</div>
-              <div>第一份工作</div>
-            </div>
-          </div>
 
 
-          <div class="LP-box-inside">
+
+          <div class="d-flex align-center justify-center text-center w-80 ">
             <div class="one-on-one">
               <img src="../assets/Tree.png" alt="">
             </div>
@@ -55,7 +24,7 @@
             </div>
           </div>
 
-          <div class="LP-box-inside">
+          <div class="d-flex align-center justify-center text-center w-80 ">
             <div class="one-on-one">
               <img src="../assets/Tree.png" alt="">
             </div>
@@ -71,8 +40,7 @@
 
         <div>
 
-
-          <div class="LP-box-inside">
+          <div class="d-flex align-center justify-center text-center w-80 ">
             <div class="one-on-one">
               <img src="../assets/Tree.png" alt="">
             </div>
@@ -85,7 +53,7 @@
 
 
 
-          <div class="LP-box-inside">
+          <div class="d-flex align-center justify-center text-center w-80 ">
             <div class="one-on-one">
               <img src="../assets/Tree.png" alt="">
             </div>
