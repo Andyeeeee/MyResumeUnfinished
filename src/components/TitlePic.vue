@@ -1,8 +1,8 @@
 <template>
   <div id="TitlePic">
-    <div class="d-flex  align-center  justify-xl-space-evenly">
+    <div class="d-sm-flex  align-center  justify-space-evenly">
 
-      <div class="">天氣、溫度</div>
+      <div class="d-none d-sm-block">天氣、溫度</div>
 
       <div class="clock-numbrt">
         <div class="d-flex colck-box">
@@ -38,7 +38,7 @@
         </div>
         <div id="time"></div>
       </div>
-      <div class="date">月曆</div>
+      <div class="d-none d-sm-block">月曆</div>
     </div>
     <a href="https://github.com/Andyeeeee" class="git" target="_blank">
       <button>gitub</button></a>
