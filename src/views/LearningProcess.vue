@@ -1,65 +1,110 @@
 <template>
-  <v-container>
-    <h1>我的學習經歷</h1>
+  <div id="LearningProcess">
+
+    <v-container>
+      <h1>學習歷程</h1>
+      <h1>這業主要選寫什麼時間學會了什麼，什麼時間做了什麼成品</h1>
+
+      <div class="LP-box-outside">
 
 
-    <div style="display: flex;flex-wrap:wrap;">
-
-
-
-      <div style="display: flex;    align-items: center ;text-align: center;width: 80%;justify-content: center;">
         <div>
-          <img src="../assets/Tree.png" alt="" style="height: 120px;">
+
+          <div class="LP-box-inside">
+            <div class="one-on-one">
+              <img src="../assets/Tree.png" alt="">
+            </div>
+            <div>
+              <div></div>
+              <div>2圖片</div>
+              <div>第1份工作</div>
+            </div>
+          </div>
+
+          <div class=" LP-box-inside">
+            <div class="one-on-one">
+              <img src="../assets/Tree.png" alt="">
+            </div>
+            <div>
+              <div></div>
+              <div>2圖片</div>
+              <div>第3份工作</div>
+            </div>
+          </div>
+
+          <div class="LP-box-inside">
+            <div class="one-on-one">
+              <img src="../assets/Tree.png" alt="">
+            </div>
+            <div>
+              <div></div>
+              <div>2圖片</div>
+              <div>第一份工作</div>
+            </div>
+          </div>
+
+
+          <div class="LP-box-inside">
+            <div class="one-on-one">
+              <img src="../assets/Tree.png" alt="">
+            </div>
+            <div>
+              <div>2023/2/1~2023/2/30</div>
+              <div>1圖片</div>
+              <div>網頁前端入門課程</div>
+            </div>
+          </div>
+
+          <div class="LP-box-inside">
+            <div class="one-on-one">
+              <img src="../assets/Tree.png" alt="">
+            </div>
+            <div>
+              <div>2023/3/1</div>
+              <div>2圖片</div>
+              <div>參加職訓局網也前端課程</div>
+            </div>
+          </div>
+
+
         </div>
+
         <div>
-          <div>xxxx.xx.xx</div>
-          <div>圖片</div>
-          <div>名稱</div>
+
+
+          <div class="LP-box-inside">
+            <div class="one-on-one">
+              <img src="../assets/Tree.png" alt="">
+            </div>
+            <div>
+              <div>xxxx.xx.xx</div>
+              <div>3圖片</div>
+              <div>名稱</div>
+            </div>
+          </div>
+
+
+
+          <div class="LP-box-inside">
+            <div class="one-on-one">
+              <img src="../assets/Tree.png" alt="">
+            </div>
+            <div>
+              <div>xxxx.xx.xx</div>
+              <div>4圖片</div>
+              <div>名稱</div>
+            </div>
+          </div>
+
+
         </div>
+
+
+
       </div>
 
-      <div style="display: flex;    align-items: center ;text-align: center;width: 80%;justify-content: center;">
-        <div>
-          <img src="../assets/Tree.png" alt="" style="height: 120px;">
-        </div>
-        <div>
-          <div>xxxx.xx.xx</div>
-          <div>圖片</div>
-          <div>名稱</div>
-        </div>
-      </div>
 
-
-
-      <div style="display: flex;    align-items: center ;text-align: center;width: 80%;justify-content: center;">
-        <div>
-          <img src="../assets/Tree.png" alt="" style="height: 120px;">
-        </div>
-        <div>
-          <div>xxxx.xx.xx</div>
-          <div>圖片</div>
-          <div>名稱</div>
-        </div>
-      </div>
-
-
-
-      <div style="display: flex;    align-items: center ;text-align: center;width: 80%;justify-content: center;">
-        <div>
-          <img src="../assets/Tree.png" alt="" style="height: 120px;">
-        </div>
-        <div>
-          <div>xxxx.xx.xx</div>
-          <div>圖片</div>
-          <div>名稱</div>
-        </div>
-      </div>
-
-
-
-    </div>
-
-
-  </v-container>
+    </v-container>
+  </div>
 </template>
 <script setup></script>
