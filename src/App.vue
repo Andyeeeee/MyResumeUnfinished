@@ -19,8 +19,8 @@
           <v-btn to='/aboutme'>關於我</v-btn>
           <v-btn to='/myproduct'>我的作品</v-btn>
           <v-btn to='/myskill'>我的能力</v-btn>
-          <v-btn to='/aboutme'>學習歷程</v-btn>
-          <v-btn to='/aboutme'>我的經歷</v-btn>
+          <v-btn to='/learningprocess'>學習歷程</v-btn>
+          <v-btn to='/myexperience'>我的經歷</v-btn>
         </template>
       </v-app-bar>
       <v-main>
@@ -49,8 +49,8 @@ const items = computed(() => {
     { to: '/aboutme', title: '關於我', icon: 'mdi-face-man', text: '關於我' },
     { to: '/myproduct', title: '我的作品', icon: 'mdi-book-open', text: '我的作品' },
     { to: '/myskill', title: '我的技能', icon: 'mdi-hubspot', text: '我的技能' },
-    { to: '/aboutme', title: '學習歷程', icon: 'mdi-book-open-page-variant', text: '學習歷程' },
-    { to: '/aboutme', title: '我的經歷', icon: 'mdi-ski', text: '我的經歷' }
+    { to: '/learningprocess', title: '學習歷程', icon: 'mdi-book-open-page-variant', text: '學習歷程' },
+    { to: '/myexperience', title: '我的經歷', icon: 'mdi-ski', text: '我的經歷' }
   ]
 })
 

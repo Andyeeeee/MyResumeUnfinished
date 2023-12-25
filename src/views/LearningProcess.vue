@@ -5,7 +5,7 @@
       <h1>學習歷程</h1>
       <h1>這業主要選寫什麼時間學會了什麼，什麼時間做了什麼成品</h1>
 
-      <div class="d-flex flex-column flex-wrap">
+      <div class="d-flex flex-column flex-sm-row flex-wrap  justify-space-around">
 
 
         <div>
@@ -13,7 +13,7 @@
 
 
 
-          <div class="d-flex align-center justify-center text-center w-80 ">
+          <div class="d-flex align-center justify-center text-center w-80 w-md-40">
             <div class="one-on-one">
               <img src="../assets/Tree.png" alt="">
             </div>

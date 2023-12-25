@@ -22,7 +22,7 @@ const items = computed(() => {
     { to: '/myproduct', title: '我的作品', icon: 'mdi-book-open', text: '我的作品' },
     { to: '/myskill', title: '我的技能', icon: 'mdi-hubspot', text: '我的技能' },
     { to: '/learningprocess', title: '學習歷程', icon: 'mdi-book-open-page-variant', text: '學習歷程' },
-    { to: '/aboutme', title: '我的經歷', icon: 'mdi-ski', text: '我的經歷' }
+    { to: '/myexperience', title: '我的經歷', icon: 'mdi-ski', text: '我的經歷' }
   ]
 })
 </script>
