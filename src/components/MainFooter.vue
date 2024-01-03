@@ -11,11 +11,38 @@
         <img src="/src/assets/FooterMe.png" alt="" style="border-radius: 50%;width: 50%">
       </v-col>
       <v-col class="v-col-12 v-col-sm-4">
-        <div><v-icon icon="mdi-email-edit-outline" />信箱:10514f074@gmail.com</div>
-        <div><v-icon icon="mdi-cellphone-text" />LINE(手機):0908488070</div>
-        <div><v-icon icon="mdi-phone" />1電話:0908488070(這邊新增複製功能)</div>
+        <div><v-icon icon="mdi-email-edit-outline" />信箱:<span id="gmailURL">10514f074@gmail.com</span>
+          <button @click="copyGmail"><v-icon icon="mdi-content-copy"></v-icon></button>
+        </div>
+        <div><v-icon icon="mdi-cellphone-text" />LINE(手機):<span id="copyURL">0908488070</span>
+          <button @click="copyPhoneNumber"> <v-icon icon="mdi-content-copy"></v-icon></button>
+        </div>
+        <div><v-icon icon="mdi-phone"></v-icon>電話:<span id="copyURL">0908488070</span>
+          <button @click="copyPhoneNumber"> <v-icon icon="mdi-content-copy"></v-icon></button>
+        </div>
         <div>製作線上預約功能</div>
       </v-col>
     </v-row>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    copyGmail() {
+      const copyGmail = document.getElementById('gmailURL').textContent;
+      navigator.clipboard.writeText(copyGmail)
+    },
+    copyPhoneNumber() {
+      const copyPhoneNumber = document.getElementById('copyURL').textContent;
+      navigator.clipboard.writeText(copyPhoneNumber)
+        .then(() => {
+          console.log('Text copied to clipboard');
+        })
+        .catch(err => {
+          console.error('Failed to copy: ', err);
+        });
+    }
+  }
+}
+</script>
