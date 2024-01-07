@@ -13,7 +13,7 @@
 
 
 
-          <div class="d-flex align-center justify-center text-center w-80 w-md-40">
+          <div class="d-flex align-center justify-center text-center w-80">
             <div class="one-on-one">
               <img src="../assets/Tree.png" alt="">
             </div>

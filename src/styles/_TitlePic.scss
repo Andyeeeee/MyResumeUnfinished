@@ -15,6 +15,11 @@
     margin: auto;
   }
 
+.title-box{
+  // width: 33%;
+  // background-color: blueviolet;
+}
+
   .click {
     width: 80%;
     height: 80%;
@@ -133,4 +138,11 @@
     color: rgb(255, 253, 111);
   }
 
+}
+
+@include sm{
+  .title-box{
+    width: 50% ;
+    // background-color: cadetblue;
+  }
 }

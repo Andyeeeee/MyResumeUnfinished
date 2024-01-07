@@ -2,10 +2,10 @@
   <div id="TitlePic">
     <div class="d-sm-flex  align-center  justify-space-evenly">
 
-      <div class="d-none d-md-block">天氣、溫度</div>
+      <div class="d-none d-md-block title-box">天氣、溫度</div>
 
-      <div class="clock-numbrt">
-        <div class="d-flex colck-box">
+      <div class="clock-numbrt title-box">
+        <div class="d-flex colck-box" style="flex: 1;">
           <div class="click">
             <div id="hour"></div>
             <div id="minutes"></div>
@@ -39,7 +39,7 @@
         <div id="time"></div>
       </div>
 
-      <div class="d-none d-sm-block">
+      <div class="d-none d-sm-block title-box">
         <div class="calendar">
           <div class="title">
             <h1 class="green small" id="calendar-year">Year</h1>
