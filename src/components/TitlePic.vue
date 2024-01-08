@@ -2,7 +2,9 @@
   <div id="TitlePic">
     <div class="d-sm-flex  align-center  justify-space-evenly">
 
-      <div class="d-none d-md-block title-box">天氣、溫度</div>
+      <div class="d-none d-md-block title-box">
+        <div v-html="weatherImage"></div>
+      </div>
 
       <div class="clock-numbrt title-box">
         <div class="d-flex colck-box" style="flex: 1;">
@@ -73,6 +75,38 @@
       <button>gitub</button></a>
   </div>
 </template>
+<script setup>
+import axios from 'axios';
+import { ref } from 'vue';
+
+const weatherImage = ref('')
+
+const weatherData = async () => {
+  try {
+    const weather = await axios.get('https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-EBDD970B-60A8-41FC-9B88-6982746FADEC&locationName=%E8%87%BA%E5%8C%97%E5%B8%82');
+    console.log(weather);
+    const weatherDescription = weather.data.records.location[0].weatherElement[0].time[0].parameter.parameterValue;
+    const weathertime = weather.data.records.location[0].weatherElement[0].time[0].endTime;
+    console.log(weatherDescription);
+    console.log(weathertime);
+    weatherImage.value = changeImg(weatherDescription, weathertime);
+  } catch (error) {
+    console.log('資料抓取失敗', error);
+  }
+}
+
+const changeImg = (weatherDescription, weathertime) => {
+  const raining = [...Array.from({ length: 7 }, (_, i) => i + 8), 30, 32, 38, 39];
+  console.log(raining);
+  if (raining.includes(parseInt(weatherDescription)) && weathertime.includes("18:00")) {
+    return `<img src="https://cdn-icons-png.flaticon.com/128/4814/4814268.png" alt="cloudy" />`;
+  }
+  return '';
+}
+
+weatherData();
+
+</script>
 <script>
 
 export default {
