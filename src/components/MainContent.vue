@@ -2,7 +2,7 @@
   <div id="MainContent">
     <v-container>
 
-      <v-row class="v-col-12 text-center">
+      <v-row class="text-center">
         <v-col class="v-col-12 v-col-sm-6 v-col-lg-4" v-for="item in items" :key="item.to">
           <v-btn :title="item.title" :text="item.text" :icon="item.icon" :to="item.to">
           </v-btn>
