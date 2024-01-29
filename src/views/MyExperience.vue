@@ -62,6 +62,22 @@
 
     </v-container>
   </div>
+  <section>
+    <ul class="d-flex exp justify-space-around" style="list-style: none;">
+      <li>
+        <img src="../assets/Experience/food.png" alt="">
+      </li>
+      <li>
+        <img src="../assets/Experience/food2.jpg" alt="">
+      </li>
+      <li>
+        <img src="../assets/Experience/uber.png" alt="">
+      </li>
+      <li>
+        <img src="../assets/Experience/windows.jpg" alt="">
+      </li>
+    </ul>
+  </section>
 </template>
 
 <script setup>
@@ -74,5 +90,10 @@
   border: 1px solid black;
   background-image: url('../assets/Tree.png');
   background-size: contain;
+}
+
+.exp img {
+  width: 100px;
+  border-radius: 25%;
 }
 </style>

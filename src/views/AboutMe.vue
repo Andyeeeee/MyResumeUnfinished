@@ -64,10 +64,30 @@
 
     <div>我的相關連結(圖片+連結)(104履歷，cake履歷，github)</div>
     <div>line qrcode</div>
-
+    <ul class="d-flex aboutme-resume " style="list-style: none;justify-content: space-around;">
+      <li>
+        <a href="">
+          <img src="../assets/aboutme/104.png" alt="104" title="104">
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="../assets/aboutme/cakeresum.png" alt="cakeresume" title="cakeresume">
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="../assets/aboutme/github.png" alt="github" title="github">
+        </a>
+      </li>
+    </ul>
 
   </div>
 </template>
-<script setup>
-
-</script>
+<style>
+.aboutme-resume img {
+  background-color: antiquewhite;
+  border-radius: 50%;
+  width: 100px;
+}
+</style>
